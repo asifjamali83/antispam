@@ -1,6 +1,6 @@
 # BY TEAMBOTMAX
 # -*- coding: utf-8 -*-
-from linepy import *
+from LineAPI import *
 from time import sleep
 maxbots = LINE()
 int1 = len(maxbots.getGroupIdsInvited())
