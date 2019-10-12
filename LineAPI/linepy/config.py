@@ -33,7 +33,7 @@ class Config(object):
     CARRIER     = '51089, 1-0'
     SYSTEM_NAME = 'shahzain786'
     SYSTEM_VER  = '11.2.5'
-    IP_ADDR     = '8.8.8.8'
+    IP_ADDR     = '1.1.1.1'
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
 
     def __init__(self):
