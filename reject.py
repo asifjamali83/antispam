@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 from gtts import gTTS
 from googletrans import Translator
 
-dz = LINE("")
+dz = LINE()
 int1 = len(dz.getGroupIdsInvited())
 if int1 == 0:
     print("No groups inviting")
@@ -22,4 +22,4 @@ else:
         print("Reject " + dz.getGroup(groups).name)
         sleep(0.7)
         dz.rejectGroupInvitation(groups)
-#    print("\nYou reject" + str(int1) + "groups invita>
+    print("\nYou reject" + str(int1) + "groups invita>
