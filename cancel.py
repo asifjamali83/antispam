@@ -22,4 +22,4 @@ else:
         print("Reject " + dz.getGroup(groups).name)
         sleep(0.7)
         dz.rejectGroupInvitation(groups)
-    print("\nYou reject" + str(int1) + "groups invita>
+    print("\nYou reject" + str(int1) + "groups invitions")
